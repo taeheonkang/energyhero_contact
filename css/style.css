@@ -1,0 +1,54 @@
+* {margin: 0; padding: 0;}
+ul {list-style: none;}
+a {text-decoration: none; color: black;}
+
+#top {height: 800px; background: url(../images/sub4_bg.png) no-repeat center top; background-size: cover;}
+.top_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.logo_top {width: 140px; height: 60px; position: absolute; top: 20px; left: 590px;}
+.nav {position: absolute; top: 105px; left: 50%; margin-left: -285px;}
+.nav>li {float: left;}
+.nav>li:nth-child(1) {margin-right: 95px;}
+.nav>li:nth-child(2) {margin-right: 95px;}
+.nav>li:nth-child(3) {margin-right: 95px;}
+.nav>li>a {display: block; font-size: 20px; font-family: 'Arial'; font-weight: bold;}
+.nav>li>a:hover {color: #aaa;}
+.login {position: absolute; top: 15px; right: 20px;}
+.login>li {float: left; margin-left: 20px;}
+.login>li>a {display: block; font-size: 16px; font-family: 'Arial';}
+.login>li>a:hover {color: #aaa;}
+
+#banner {height: 300px; box-sizing: border-box; background: url(../images/banner.jpg) no-repeat -2000px -1950px; background-attachment: fixed; text-align: center;}
+#banner p {font-family: 'Arial'; font-weight: bold; font-size: 30px; color: white; padding-top: 145px;}
+
+#cont {height: 900px;}
+.cont_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; padding: 125px 0 0 200px; position: relative;}
+.text {font-family: 'Noto Sans KR'; font-size: 20px; margin-bottom: 5px;}
+.box1 {width: 920px; height: 50px; border: 1px solid black; background-color: #eee; margin-bottom: 25px; box-sizing: border-box;}
+#subject {width: 920px; height: 50px; border: 1px solid black;
+    padding: 0px 10px; font-family: 'Noto Sans KR'; font-size: 15px;
+    margin-bottom: 25px; box-sizing: border-box; background: #eee url(../images/arrow.png) no-repeat 98.5% center;
+-webkit-appearance: none; -moz-appearance: none;}
+#details {width: 920px; height: 200px; border: 1px solid black; background-color: #eee; margin-bottom: 25px; padding: 10px 0 0 10px; box-sizing: border-box;} 
+.submit {width: 200px; height: 60px; background-color: #555; color: white; font-family: 'Noto Sans KR'; font-size: 25px; font-weight: bold; box-sizing: border-box; position: absolute; top: 710px; left: 560px;}
+.submit:hover {background-color: black;}
+
+#footer {height: 250px; background-color: black;}
+.footer_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.footer_text {font-family: '맑은고딕'; font-size: 13px; position: absolute; top: 30px; left: 0; color: white; line-height: 25px;}
+.footer_ul {position: absolute; top: 30px; right: 0px;}
+.footer_ul li {float: left;}
+.footer_ul li img {width: 50px; height: 50px;}
+.footer_ul li a {display: block; margin-left: 15px; opacity: 0.3;}
+.footer_ul li a:hover {opacity: 1.0;}
+.logo_footer {width: 140px; height: 60px; box-sizing: border-box; position: absolute; right: 0; top: 150px;}
+
+.gotop {width: 70px; height: 140px; box-sizing: border-box; position: fixed; bottom: 30px; right: 40px;}
+.gotop:hover {transform: rotate(20deg); transition: 0.3s ease-in;}
+
+.log_box {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); position: fixed; top: 0; left: 0; display: none;}
+.log {width: 300px; height: 180px; box-sizing: border-box; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: 'Noto Sans KR'; font-size: 14px; background-color: white;}   
+.sign_box {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); position: fixed; top: 0; left: 0; display: none;}
+.sign {width: 300px; height: 180px; box-sizing: border-box; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: 'Noto Sans KR'; font-size: 14px; background-color: white;}
+.id {width: 250px; margin-top: 15px; box-sizing: border-box; padding: 2px 5px;}
+.submit_btn {display: inline-block; margin: 15px 0 30px 0; padding: 3px 10px; background-color: #333; color: white;}
+.close {color: #333; text-decoration: underline; margin-left: 230px;}
